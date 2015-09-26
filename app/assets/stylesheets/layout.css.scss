@@ -1,0 +1,49 @@
+div#container {
+	display: block;
+	position: relative;
+	min-height: 1000px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+header#page_header {
+
+	background-color: gray;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+nav#utility {
+	float: right;
+	font-size: 1em;
+}
+
+nav#links {
+	ul {
+		list-style: none;
+      	background-color: #444;
+      	text-align: center;
+      	padding: 0;
+     	margin: 0;
+	}
+
+	li {
+		display: inline-block;
+		margin: 0;
+		padding: 10px;
+		font-size: 1.5em;
+
+		a,
+		a:link,
+		a:visited {
+			color: #FFF;
+			text-decoration: none;
+		}
+		a:hover {
+      		background-color: #005f5f;
+      	}
+	}
+}

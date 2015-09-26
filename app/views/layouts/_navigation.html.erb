@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
-	<nav>
+	<nav id="links" role="navigation">
 		<ul>
-			<%= link_to "	 Home	", root_path %>
-			<%= link_to "	 Events     ", events_path %>
-			<%= link_to "	 Info     ", info_path %>
-			<%= link_to "	 Research     ", research_path %>
-			<%= link_to "	 Surf     ", surf_path %>
-			<%= link_to "	 Pier     ", pier_path %>
+			<li> <%= link_to "Home", root_path %>
+			<li> <%= link_to "Events", events_path %>
+			<li> <%= link_to "About", info_path %>
+			<li> <%= link_to "Research", research_path %>
+			<li> <%= link_to "Surf", surf_path %>
+			<li> <%= link_to "Pier", pier_path %>
 		</ul>
-
-
 	</nav>
 </html>
