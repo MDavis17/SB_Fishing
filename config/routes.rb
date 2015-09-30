@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   match "/home" => "sb_fishing#home", via: :get
 
-  match "/events" => "sb_fishing#events", via: :get
+  match "/forum" => "sb_fishing#forum", via: :get
 
   match "/info" => "sb_fishing#info", via: :get
 
@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   match "/surf" => "sb_fishing#surf", via: :get
 
   match "/pier" => "sb_fishing#pier", via: :get
+
+  match "/places" => "sb_fishing#places", via: :get
 
   root 'sb_fishing#home'
 

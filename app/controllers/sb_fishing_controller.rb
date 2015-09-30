@@ -3,8 +3,8 @@ class SbFishingController < ApplicationController
   	@title = 'Home'
   end
 
-  def events
-  	@title = 'Events'
+  def forum
+  	@title = 'Forum'
   end
 
   def info
@@ -21,5 +21,9 @@ class SbFishingController < ApplicationController
 
   def pier
   	@title = 'Pier'
+  end
+
+  def places
+    @title = 'Places'
   end
 end
