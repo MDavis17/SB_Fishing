@@ -11,6 +11,7 @@ div#container {
 div#surf_image {
 	display: block;
 	text-align: center;
+	text-shadow: 2px 2px 0px #7A7175;
 	color: white;
 	float: left;
 	width: 950px;
@@ -25,6 +26,7 @@ div#surf_image {
 div#pier_image {
 	display: block;
 	text-align: center;
+	text-shadow: 2px 2px 0px #BBB9DB;
 	color: black;
 	float: left;
 	width: 950px;
@@ -39,6 +41,7 @@ div#pier_image {
 div#places_image {
 	display: block;
 	text-align: center;
+	text-shadow: 2px 2px 0px #75A18B;
 	color: black;
 	float: left;
 	width: 950px;
@@ -55,6 +58,7 @@ header#page_header {
 
 	background: url(http://www.sbramada.com/resourcefiles/mainimages/montecito-historic-santa-barbara-top.jpg) no-repeat;
 	text-align: center;
+	text-shadow: 2px 2px 0px #925B62;
 	color: white;
 	padding: 10px;
 }
@@ -75,6 +79,7 @@ nav#links {
 
 	li {
 		display: inline-block;
+		width: 12%;
 		margin: 0;
 		padding: 10px;
 		font-size: 1.5em;
