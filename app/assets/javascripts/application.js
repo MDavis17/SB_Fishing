@@ -14,3 +14,22 @@
 //= require jquery_ujs
 
 //= require_tree .
+
+
+$(function() {
+
+	$( "#tide_frame" ).hide();
+
+	$("#hide_tides").hide();
+	$( "#show_tides" ).click(function() {
+		$( "#tide_frame" ).slideDown();
+		$( this ).hide('normal');
+		$("#hide_tides").show('normal');
+	});
+
+	$( "#hide_tides" ).click(function() {
+		$( "#tide_frame" ).slideUp();
+		$( "#show_tides" ).show('normal');
+		$("#hide_tides").hide();
+	});
+})

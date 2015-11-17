@@ -1,3 +1,7 @@
+body#page {
+	background-color: #E9C7BD;
+}
+
 div#container {
 	display: block;
 	position: relative;
@@ -6,6 +10,11 @@ div#container {
 	margin: 0 auto;
 	padding: 0;
 	
+}
+
+iframe#tides{
+	min-height: 300px;
+	min-width: 950px;
 }
 
 div#surf_image {
@@ -57,7 +66,7 @@ div#research_image {
 	display: block;
 	text-align: center;
 	text-shadow: 2px 2px 0px #75A18B;
-	color: black;
+	color: white;
 	float: left;
 	width: 950px;
 	position: relative;
@@ -68,10 +77,6 @@ div#research_image {
 	background-position: -100px -75px;
 
 }
-
-
-
-
 
 header#page_header {
 
