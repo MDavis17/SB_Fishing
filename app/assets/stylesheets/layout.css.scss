@@ -1,5 +1,5 @@
 body#page {
-	background-color: #E9C7BD;
+	background-color: #CDD1E2;
 }
 
 div#container {
@@ -12,9 +12,24 @@ div#container {
 	
 }
 
+div#sidebar {
+	float: right;
+	width: 200px;
+}
+
+div#main {
+	float: left;
+	width: 735px;
+}
+
+img#fish_image{
+	width: 200px;
+	height: 150px;
+}
+
 iframe#tides{
 	min-height: 300px;
-	min-width: 950px;
+	min-width: 735px;
 }
 
 div#surf_image {
@@ -23,7 +38,7 @@ div#surf_image {
 	text-shadow: 2px 2px 0px #7A7175;
 	color: white;
 	float: left;
-	width: 950px;
+	width: 735px;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -38,7 +53,7 @@ div#pier_image {
 	text-shadow: 2px 2px 0px #BBB9DB;
 	color: black;
 	float: left;
-	width: 950px;
+	width: 735px;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -53,7 +68,7 @@ div#places_image {
 	text-shadow: 2px 2px 0px #75A18B;
 	color: black;
 	float: left;
-	width: 950px;
+	width: 735px;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -68,7 +83,7 @@ div#research_image {
 	text-shadow: 2px 2px 0px #75A18B;
 	color: white;
 	float: left;
-	width: 950px;
+	width: 735px;
 	position: relative;
 	padding: 0;
 	margin: 0;

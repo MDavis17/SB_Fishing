@@ -8,17 +8,33 @@
 	</head>
 
 	<body id="page">
+
+
 		<div id="container">
+
 			<%= render 'layouts/header'%>
 			<%= render 'layouts/navigation'%>
 
-			<%= yield %>
+			<div id="sidebar">
+				<h1>Fish of the Day</h1>
+				<h2>California Halibut</h2>
+				<img src="http://alex-cool.com/wp-content/uploads/california_halibut_fishid2.jpeg" alt="California Halibut" id="fish_image">
+				<p>
+					The California halibut or California flounder, <em>Paralichthys californicus</em>, is a large-tooth flounder native to the waters of the Pacific Coast of North America from the Quillayute River in Washington to Magdalena Bay in Baja California. It feeds near shore and is free swimming. It typically weighs 6 to 50 pounds (3 to 23 kg). It is much smaller than the larger and more northern-ranging Pacific halibut that can reach 300 pounds (140 kg).
+				</p>
+			</div>
 
-			<%= render 'layouts/footer'%>
+			<div id="main">
+				
+
+				<%= yield %>
+
+				<%= render 'layouts/footer'%>
+			</div>
+
 		</div>
 
-		<div id="latest_catches">
-		</div>
+		
 
 	</body>
 </html>
