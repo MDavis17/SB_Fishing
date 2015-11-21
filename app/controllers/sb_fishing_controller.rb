@@ -3,9 +3,7 @@ class SbFishingController < ApplicationController
   	@title = 'Home'
   end
 
-  def forum
-  	@title = 'Forum'
-  end
+
 
   def info
   	@title = 'Info'

@@ -1,4 +1,5 @@
-Rails.application.routes.draw do
+SBFishing::Application.routes.draw do
+  resources :posts
   match "/home" => "sb_fishing#home", via: :get
 
   match "/forum" => "sb_fishing#forum", via: :get
