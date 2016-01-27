@@ -93,6 +93,21 @@ div#research_image {
 
 }
 
+article#posts {
+	padding-left: 20px;
+	outline: black;
+	section {
+		margin-left: 20px;
+		margin-right: 100px;
+		padding: 20px;
+		background-color: white;
+			h1, h2 {
+				color: black;
+				font-size: 20px;
+			}
+	}
+}
+
 header#page_header {
 
 	background: url(http://www.amtrakvacations.com/images/US_Destinations/Santa_Barbara_CA/Web/Destination%20Images/SantaBarb_American_Riviera.jpg) no-repeat;
