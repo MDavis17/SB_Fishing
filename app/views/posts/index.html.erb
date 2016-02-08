@@ -6,9 +6,9 @@
 
 <article id="posts">
   <% @posts.each do |post| %>
-    <section>
+    <section id="post">
+      <div id="date"><h1>Posted: <%= post.created_at %></h1></div>
       <h2><%= post.topic %></h2>
-      <h1>Posted: <%= post.date %></h1>
       <p><%= post.description%></p>
         <p>
           <%= link_to 'Show', post %> |

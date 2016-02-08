@@ -5,11 +5,14 @@
   <%= @post.topic %>
 </p>
 
-
-
 <p>
   <strong>Description:</strong>
   <%= @post.description %>
+</p>
+
+<p>
+  <strong>Posted:</strong>
+  <%= @post.created_at %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |

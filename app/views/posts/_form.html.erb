@@ -11,6 +11,7 @@
     </div>
   <% end %>
 
+
   <div class="field">
     <%= f.label :topic %><br>
     <%= f.text_field :topic %>
@@ -18,15 +19,15 @@
 
 
   <div class="field">
-    <%= f.label :date %><br>
-    <%= @post.date %>
-  </div>
-
-
-  <div class="field">
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
+
+  <div class="field">
+    <%= f.label :date %> :
+    <%= Date.today %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
